@@ -1,0 +1,10 @@
+org/javabenchmark/instrumentation/SleepingClassFileTransformer.class
+org/javabenchmark/instrumentation/Sleeping.class
+org/javabenchmark/instrumentation/Agent2.class
+org/javabenchmark/instrumentation/Agent.class
+org/javabenchmark/instrumentation/RegexClassFileTransformer.class
+org/javabenchmark/instrumentation/RegexClassFileTransformer2.class
+org/javabenchmark/instrumentation/Agent3.class
+org/javabenchmark/instrumentation/Agent3$1.class
+org/javabenchmark/instrumentation/ClassPrinter.class
+org/javabenchmark/instrumentation/Agent2$1.class

@@ -1,0 +1,667 @@
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building javassist-instrument 1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ javassist-instrument ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/peipei/RepoReaper/AssistInstrumentation/src/main/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:compile (default-compile) @ javassist-instrument ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default) @ javassist-instrument ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ javassist-instrument ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/peipei/RepoReaper/AssistInstrumentation/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.2:testCompile (default-testCompile) @ javassist-instrument ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.14:test (default-test) @ javassist-instrument ---
+[INFO] Surefire report directory: /home/peipei/RepoReaper/AssistInstrumentation/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+try {   java.io.FileWriter  fw  = new java.io.FileWriter( "/home/peipei/RepoReaper/logs/regex.log", true );   java.io.PrintWriter out = new java.io.PrintWriter( fw, true );   out.println("------Pattern compile(String regex)---regex: "+$1);   fw.close();   out.close();} catch (java.io.IOException e) {   e.printStackTrace();}
+Running org.javabenchmark.instrumentation.TestExamples
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternCompileExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternCompileExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern compile(String regex)---regex: .*http://.*---flags: 2
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternCompileExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternCompileExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternSplitExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternSplitExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern split(CharSequence input)---regex: sep---input: A sep Text sep With sep Many sep Separators
+------Pattern split(CharSequence input, int limit)---regex: sep---input: A sep Text sep With sep Many sep Separators---limit: 0
+------Pattern matcher(CharSequence input)---regex: sep---input: A sep Text sep With sep Many sep Separators
+------Matcher reset()
+------Matcher find()---regex: sep---input: A sep Text sep With sep Many sep Separators
+------Matcher find()---regex: sep---input: A sep Text sep With sep Many sep Separators
+------Matcher find()---regex: sep---input: A sep Text sep With sep Many sep Separators
+------Matcher find()---regex: sep---input: A sep Text sep With sep Many sep Separators
+------Matcher find()---regex: sep---input: A sep Text sep With sep Many sep Separators
+split.length = 5
+element = A 
+element =  Text 
+element =  With 
+element =  Many 
+element =  Separators
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternSplitExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternSplitExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matches(String regex, CharSequence input)---regex: .*is.*---input: This is the text to be searched for occurrences of the pattern.
+------Pattern matcher(CharSequence input)---regex: .*is.*---input: This is the text to be searched for occurrences of the pattern.
+------Matcher reset()
+------Matcher matches()---regex: .*is.*---input: This is the text to be searched for occurrences of the pattern.
+matches = true
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindReplaceAllFirstExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindReplaceAllFirstExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Matcher reset()
+------Matcher reset()
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+replaceAll   = Joe Blocks about this, and Joe Blocks writes about that, and Joe Blocks writes about everything.
+------Matcher reset()
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+replaceFirst = Joe Blocks about this, and John Doe writes about that, and John Wayne writes about everything.
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindReplaceAllFirstExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindReplaceAllFirstExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: StringMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: StringMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matches(String regex, CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 123-45-6789
+------Pattern matcher(CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 123-45-6789
+------Matcher reset()
+------Matcher matches()---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 123-45-6789
+Found good SSN: 123-45-6789
+------Pattern matches(String regex, CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 9876-5-4321
+------Pattern matcher(CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 9876-5-4321
+------Matcher reset()
+------Matcher matches()---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 9876-5-4321
+------Pattern matches(String regex, CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 987-65-4321 (attack)
+------Pattern matcher(CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 987-65-4321 (attack)
+------Matcher reset()
+------Matcher matches()---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 987-65-4321 (attack)
+------Pattern matches(String regex, CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 987-65-4321 
+------Pattern matcher(CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 987-65-4321 
+------Matcher reset()
+------Matcher matches()---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 987-65-4321 
+------Pattern matches(String regex, CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 192-83-7465
+------Pattern matcher(CharSequence input)---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 192-83-7465
+------Matcher reset()
+------Matcher matches()---regex: ^(\d{3}-?\d{2}-?\d{4})$---input: 192-83-7465
+Found good SSN: 192-83-7465
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: StringMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: StringMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindStartEndExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindStartEndExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: is---input: This is the text which is to be searched for occurrences of the word 'is'.
+------Matcher reset()
+------Matcher find()---regex: is---input: This is the text which is to be searched for occurrences of the word 'is'.
+java.util.regex.Matcher[pattern=is region=0,74 lastmatch=is]
+is
+------Matcher find()---regex: is---input: This is the text which is to be searched for occurrences of the word 'is'.
+java.util.regex.Matcher[pattern=is region=0,74 lastmatch=is]
+is
+------Matcher reset()
+java.util.regex.Matcher[pattern=is region=0,74 lastmatch=]
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindStartEndExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindStartEndExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: main(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: main(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: .*http://.*---input: This is the text to be searched for occurrences of the http:// pattern.
+------Matcher reset()
+------Matcher matches()---regex: .*http://.*---input: This is the text to be searched for occurrences of the http:// pattern.
+.*http://.*
+java.util.regex.Matcher[pattern=.*http://.* region=0,71 lastmatch=This is the text to be searched for occurrences of the http:// pattern.]
+This is the text to be searched for occurrences of the http:// pattern.
+------Pattern compile(String regex)---regex: .*http://.*---flags: 2
+------Pattern matcher(CharSequence input)---regex: .*http://.*---input: This is the text to be searched for occurrences of the http:// pattern.
+------Matcher reset()
+------Matcher matches()---regex: .*http://.*---input: This is the text to be searched for occurrences of the http:// pattern.
+.*http://.*
+java.util.regex.Matcher[pattern=.*http://.* region=0,71 lastmatch=This is the text to be searched for occurrences of the http:// pattern.]
+This is the text to be searched for occurrences of the http:// pattern.
+------Pattern matches(String regex, CharSequence input)---regex: [a-z]+---input: {apf
+------Pattern matcher(CharSequence input)---regex: [a-z]+---input: {apf
+------Matcher reset()
+------Matcher matches()---regex: [a-z]+---input: {apf
+------Pattern matches(String regex, CharSequence input)---regex: [a-z]+---input: hum_
+------Pattern matcher(CharSequence input)---regex: [a-z]+---input: hum_
+------Matcher reset()
+------Matcher matches()---regex: [a-z]+---input: hum_
+------Pattern matches(String regex, CharSequence input)---regex: [a-z]+---input: dkoe
+------Pattern matcher(CharSequence input)---regex: [a-z]+---input: dkoe
+------Matcher reset()
+------Matcher matches()---regex: [a-z]+---input: dkoe
+dkoe
+------Pattern matches(String regex, CharSequence input)---regex: [a-z]+---input: 12f
+------Pattern matcher(CharSequence input)---regex: [a-z]+---input: 12f
+------Matcher reset()
+------Matcher matches()---regex: [a-z]+---input: 12f
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: main(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: main(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindGroupExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindGroupExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: (John)---input: John writes about this, and John writes about that, and John writes about everything. 
+------Matcher reset()
+------Matcher find()---regex: (John)---input: John writes about this, and John writes about that, and John writes about everything. 
+found: John
+------Matcher find()---regex: (John)---input: John writes about this, and John writes about that, and John writes about everything. 
+found: John
+------Matcher find()---regex: (John)---input: John writes about this, and John writes about that, and John writes about everything. 
+found: John
+------Matcher find()---regex: (John)---input: John writes about this, and John writes about that, and John writes about everything. 
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindGroupExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindGroupExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindMultipleGroupsExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindMultipleGroupsExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: (John) (.+?) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Matcher reset()
+------Matcher find()---regex: (John) (.+?) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+found: John writes
+------Matcher find()---regex: (John) (.+?) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+found: John Doe
+------Matcher find()---regex: (John) (.+?) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+found: John Wayne
+------Matcher find()---regex: (John) (.+?) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindMultipleGroupsExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindMultipleGroupsExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindAppendReplaceTailExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindAppendReplaceTailExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Matcher reset()
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+Joe Blocks 
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+Joe Blocks about this, and Joe Blocks 
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+Joe Blocks about this, and Joe Blocks writes about that, and Joe Blocks 
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+Joe Blocks about this, and Joe Blocks writes about that, and Joe Blocks writes about everything.
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindAppendReplaceTailExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindAppendReplaceTailExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: StringSplitExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: StringSplitExample(org.javabenchmark.instrumentation.TestExamples)
+Return Value :
+Welcome
+to
+Tutorialspoint.com
+Welcome
+to-Tutorialspoint.com
+
+Return Value :
+Welcome
+to
+Tutorialspoint.com
+
+Return Value :
+Welcome
+to
+Tutorialspoint.com
+
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: StringSplitExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: StringSplitExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternMatcherExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternMatcherExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern compile(String regex)---regex: .*http://.*---flags: 2
+------Pattern matcher(CharSequence input)---regex: .*http://.*---input: This is the text to be searched for occurrences of the http:// pattern.
+------Matcher reset()
+------Matcher matches()---regex: .*http://.*---input: This is the text to be searched for occurrences of the http:// pattern.
+matches = true
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternMatcherExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: PatternMatcherExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindNestedGroupsExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindNestedGroupsExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Matcher reset()
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+found: <John writes> <John> <writes>
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+found: <John Doe> <John> <Doe>
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+found: <John Wayne> <John> <Wayne>
+------Matcher find()---regex: ((John) (.+?)) ---input: John writes about this, and John Doe writes about that, and John Wayne writes about everything.
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindNestedGroupsExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherFindNestedGroupsExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherLookingAtExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherLookingAtExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern compile(String regex)---regex: This is the---flags: 2
+------Pattern matcher(CharSequence input)---regex: This is the---input: This is the text to be searched for occurrences of the http:// pattern.
+------Matcher reset()
+------Matcher lookingAt()---regex: This is the---input: This is the text to be searched for occurrences of the http:// pattern.
+lookingAt = true
+------Matcher matches()---regex: This is the---input: This is the text to be searched for occurrences of the http:// pattern.
+matches   = false
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherLookingAtExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherLookingAtExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: .*http://.*---input: This is the text to be searched for occurrences of the http:// pattern.
+------Matcher reset()
+------Matcher matches()---regex: .*http://.*---input: This is the text to be searched for occurrences of the http:// pattern.
+.*http://.*
+java.util.regex.Matcher[pattern=.*http://.* region=0,71 lastmatch=This is the text to be searched for occurrences of the http:// pattern.]
+This is the text to be searched for occurrences of the http:// pattern.
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: MatcherMatchesExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: StringMatchesMoreExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: StringMatchesMoreExample(org.javabenchmark.instrumentation.TestExamples)
+
+Regex: (.*)quick brown fox(.*) ------Pattern matches(String regex, CharSequence input)---regex: (.*)quick brown fox(.*)---input: The quick brown fox jumps over the lazy dog.
+------Pattern matcher(CharSequence input)---regex: (.*)quick brown fox(.*)---input: The quick brown fox jumps over the lazy dog.
+------Matcher reset()
+------Matcher matches()---regex: (.*)quick brown fox(.*)---input: The quick brown fox jumps over the lazy dog.
+true
+Regex: (.*)quick brown wolf(.*) ------Pattern matches(String regex, CharSequence input)---regex: (.*)quick brown wolf(.*)---input: The quick brown fox jumps over the lazy dog.
+------Pattern matcher(CharSequence input)---regex: (.*)quick brown wolf(.*)---input: The quick brown fox jumps over the lazy dog.
+------Matcher reset()
+------Matcher matches()---regex: (.*)quick brown wolf(.*)---input: The quick brown fox jumps over the lazy dog.
+false
+
+Regex: (.*)String(.*) matches string? ------Pattern matches(String regex, CharSequence input)---regex: (.*)String(.*)---input: Java String Methods
+------Pattern matcher(CharSequence input)---regex: (.*)String(.*)---input: Java String Methods
+------Matcher reset()
+------Matcher matches()---regex: (.*)String(.*)---input: Java String Methods
+true
+Regex: (.*)Strings(.*) matches string? ------Pattern matches(String regex, CharSequence input)---regex: (.*)Strings(.*)---input: Java String Methods
+------Pattern matcher(CharSequence input)---regex: (.*)Strings(.*)---input: Java String Methods
+------Matcher reset()
+------Matcher matches()---regex: (.*)Strings(.*)---input: Java String Methods
+false
+Regex: (.*)Methods matches string? ------Pattern matches(String regex, CharSequence input)---regex: (.*)Methods---input: Java String Methods
+------Pattern matcher(CharSequence input)---regex: (.*)Methods---input: Java String Methods
+------Matcher reset()
+------Matcher matches()---regex: (.*)Methods---input: Java String Methods
+true
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: StringMatchesMoreExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: StringMatchesMoreExample(org.javabenchmark.instrumentation.TestExamples)
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: StringReplaceAllFirstExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: StringReplaceAllFirstExample(org.javabenchmark.instrumentation.TestExamples)
+Return Value :------Pattern matcher(CharSequence input)---regex: (.*)Tutorials(.*)---input: Welcome to Tutorialspoint.com
+------Matcher reset()
+------Matcher reset()
+------Matcher find()---regex: (.*)Tutorials(.*)---input: Welcome to Tutorialspoint.com
+------Matcher find()---regex: (.*)Tutorials(.*)---input: Welcome to Tutorialspoint.com
+AMROOD
+Return Value :------Pattern matcher(CharSequence input)---regex: (.*)Tutorials(.*)---input: Welcome to Tutorialspoint.com
+------Matcher reset()
+------Matcher reset()
+------Matcher find()---regex: (.*)Tutorials(.*)---input: Welcome to Tutorialspoint.com
+AMROOD
+Return Value :------Pattern matcher(CharSequence input)---regex: Tutorials---input: Welcome to Tutorialspoint.com
+------Matcher reset()
+------Matcher reset()
+------Matcher find()---regex: Tutorials---input: Welcome to Tutorialspoint.com
+Welcome to AMROODpoint.com
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: StringReplaceAllFirstExample(org.javabenchmark.instrumentation.TestExamples)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: StringReplaceAllFirstExample(org.javabenchmark.instrumentation.TestExamples)
+Tests run: 17, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+Running org.javabenchmark.instrumentation.TestExample1
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 0
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 2
+------Matcher reset()
+------Matcher find(int start)---regex: %(\d+\$)?([-#+ 0,(\<]*)?(\d+)?(\.\d+)?([tT])?([a-zA-Z%])---input: %s(%s)---start: 5
+------Matcher reset()
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: main(org.javabenchmark.instrumentation.TestExample1)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: main(org.javabenchmark.instrumentation.TestExample1)
+------Pattern matches(String regex, CharSequence input)---regex: [a-z]+---input: {apf
+------Pattern matcher(CharSequence input)---regex: [a-z]+---input: {apf
+------Matcher reset()
+------Matcher matches()---regex: [a-z]+---input: {apf
+------Pattern matches(String regex, CharSequence input)---regex: [a-z]+---input: hum_
+------Pattern matcher(CharSequence input)---regex: [a-z]+---input: hum_
+------Matcher reset()
+------Matcher matches()---regex: [a-z]+---input: hum_
+------Pattern matches(String regex, CharSequence input)---regex: [a-z]+---input: dkoe
+------Pattern matcher(CharSequence input)---regex: [a-z]+---input: dkoe
+------Matcher reset()
+------Matcher matches()---regex: [a-z]+---input: dkoe
+dkoe
+------Pattern matches(String regex, CharSequence input)---regex: [a-z]+---input: 12f
+------Pattern matcher(CharSequence input)---regex: [a-z]+---input: 12f
+------Matcher reset()
+------Matcher matches()---regex: [a-z]+---input: 12f
+------Pattern matcher(CharSequence input)---regex: ^.+\(([^\\(\\)]+)\)$---input: main(org.javabenchmark.instrumentation.TestExample1)
+------Matcher reset()
+------Matcher find()---regex: ^.+\(([^\\(\\)]+)\)$---input: main(org.javabenchmark.instrumentation.TestExample1)
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+
+Results :
+
+Tests run: 18, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.331 s
+[INFO] Finished at: 2017-10-09T18:03:55-04:00
+[INFO] Final Memory: 10M/302M
+[INFO] ------------------------------------------------------------------------
