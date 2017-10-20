@@ -18,8 +18,10 @@ public class Agent {
 		String log_name="regex";
 		if(agentArgs!= null){
 			log_name=agentArgs;
+			inst.addTransformer(new RegexClassFileTransformer4(log_name));
+		}else{
+			System.out.println("ERROR no log file");
 		}
-		inst.addTransformer(new RegexClassFileTransformer2(log_name));
 
 	}
 }

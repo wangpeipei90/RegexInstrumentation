@@ -18,9 +18,9 @@ import javassist.NotFoundException;
  * @author peipei
  *
  */
-public class RegexClassFileTransformer2 implements ClassFileTransformer {
+public class RegexClassFileTransformer3 implements ClassFileTransformer {
 	private static String log_file;
-	public RegexClassFileTransformer2(String log_name) {
+	public RegexClassFileTransformer3(String log_name) {
 		// TODO Auto-generated constructor stub
 		log_file="/home/peipei/RepoReaper/logs/"+log_name+".log";
 	}
@@ -33,6 +33,14 @@ public class RegexClassFileTransformer2 implements ClassFileTransformer {
 //		sbs.append( "   java.io.FileWriter  fw  = new java.io.FileWriter( \""+log_file+"\", true );" );
 		sbs.append( "   java.io.OutputStreamWriter fw = new java.io.OutputStreamWriter(new java.io.FileOutputStream( \""+log_file+"\", true ), java.nio.charset.StandardCharsets.UTF_8);");
 		sbs.append( "   java.io.PrintWriter out = new java.io.PrintWriter( fw, true );" );
+
+		sbs.append("java.lang.StackTraceElement[] stackTrace=java.lang.Thread.currentThread().getStackTrace();");
+		sbs.append("for(int i=0;i<stackTrace.length;i++){");
+		sbs.append("java.lang.StackTraceElement element=stackTrace[i];");
+		sbs.append("String msg =\"Stack Trace from: \" + element.getMethodName()+\" in class: \" + element.getClassName() + \"[on line number: \"+ element.getLineNumber() + \" of file: \" + element.getFileName() + \"]\";");
+		sbs.append("out.println(msg);");
+		sbs.append( "}" );
+
 		sbs.append( "   out.println("+s+");" );
 		sbs.append( "   fw.close();" );
 		sbs.append( "   out.close();" );

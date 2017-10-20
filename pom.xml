@@ -47,7 +47,7 @@
 					<skipTests>false</skipTests>
 					<!--<argLine>-Xmx1024m -XX:MaxPermSize=256m -javaagent:${project.build.directory}/javassist-instrument-1.jar</argLine>-->
 					
-					<argLine>-javaagent:target/${project.build.finalName}.jar=testUserLog</argLine>
+					<argLine>-javaagent:target/${project.build.finalName}.jar=testRegex</argLine>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -88,7 +88,7 @@
 			<groupId>org.javassist</groupId>
 			<artifactId>javassist</artifactId>
 			<version>3.14.0-GA</version>
-			<type>jar</type>
+<!--			<type>jar</type>-->
 		</dependency>
 	</dependencies>
 </project>
